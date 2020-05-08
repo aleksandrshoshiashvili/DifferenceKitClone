@@ -1,0 +1,16 @@
+PODS:
+  - DifferenceKitClone (0.1.0)
+
+DEPENDENCIES:
+  - DifferenceKitClone (from `../`)
+
+EXTERNAL SOURCES:
+  DifferenceKitClone:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DifferenceKitClone: b58061200bf078dc565e1bcaec28a9a458d1dbda
+
+PODFILE CHECKSUM: 074aabdd788dd3a8b060754ca34998c16538bce2
+
+COCOAPODS: 1.8.3

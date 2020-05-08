@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		1588001327A91AC8D74EC077 /* Pods_DifferenceKitClone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifferenceKitClone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEAF855E91955206F99A6BA /* Pods_DifferenceKitClone_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifferenceKitClone_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		402DE4D78B9F6E69BBB6E819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4C13145DCB395DA5BAD23B6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		402DE4D78B9F6E69BBB6E819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C13145DCB395DA5BAD23B6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DifferenceKitClone_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DifferenceKitClone_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		93E167694DD9ED6D1F9F32A3 /* Pods-DifferenceKitClone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceKitClone_Tests.release.xcconfig"; path = "Target Support Files/Pods-DifferenceKitClone_Tests/Pods-DifferenceKitClone_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		976478861424E7471776F099 /* Pods-DifferenceKitClone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceKitClone_Example.debug.xcconfig"; path = "Target Support Files/Pods-DifferenceKitClone_Example/Pods-DifferenceKitClone_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B4D6E7628BB130662DD1F4F7 /* Pods-DifferenceKitClone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceKitClone_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DifferenceKitClone_Tests/Pods-DifferenceKitClone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9E6CD6A599C1F6B2A2DE169 /* DifferenceKitClone.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DifferenceKitClone.podspec; path = ../DifferenceKitClone.podspec; sourceTree = "<group>"; };
+		E9E6CD6A599C1F6B2A2DE169 /* DifferenceKitClone.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DifferenceKitClone.podspec; path = ../DifferenceKitClone.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F09F6BE2B0D51904FECA7F10 /* Pods-DifferenceKitClone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceKitClone_Example.release.xcconfig"; path = "Target Support Files/Pods-DifferenceKitClone_Example/Pods-DifferenceKitClone_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				B4D6E7628BB130662DD1F4F7 /* Pods-DifferenceKitClone_Tests.debug.xcconfig */,
 				93E167694DD9ED6D1F9F32A3 /* Pods-DifferenceKitClone_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

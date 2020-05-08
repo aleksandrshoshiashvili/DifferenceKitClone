@@ -1,0 +1,22 @@
+{
+  "name": "DifferenceKitClone",
+  "version": "0.1.0",
+  "summary": "A short description of DifferenceKitClone.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aleksandrshoshiashvili/DifferenceKitClone",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aleksandrshoshiashvili": "aleksandr.shoshiashvili@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aleksandrshoshiashvili/DifferenceKitClone.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DifferenceKitClone/Classes/**/*"
+}

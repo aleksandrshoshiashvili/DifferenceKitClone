@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'DifferenceKitClone'
 ```
 
-## Author
-
-aleksandrshoshiashvili, aleksandr.shoshiashvili@gmail.com
-
 ## License
 
 DifferenceKitClone is available under the MIT license. See the LICENSE file for more info.
