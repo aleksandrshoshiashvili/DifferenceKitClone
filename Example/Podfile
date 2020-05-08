@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DifferenceKitClone_Example' do
+  pod 'DifferenceKitClone', :path => '../'
+
+  target 'DifferenceKitClone_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
